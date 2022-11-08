@@ -99,5 +99,14 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
-  }
+  },
+  //"files": ["farmstand.ts", "index.ts"]    //only these file get compiled
+  // "include": ["src"]        you can put files in folder to compile
+  // "exlude": ["src/dontTouch]     can exclude file or folder src is a folder you create
+  // exclude default excludes node_modules....
 }
+
+// include grabs only file you choose...top 
+
+//outDir changes the js files to separate directory  look up to outDir
+
